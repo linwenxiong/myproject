@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../h"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../ssr"
+		}
+	],
+	"settings": {}
+}
