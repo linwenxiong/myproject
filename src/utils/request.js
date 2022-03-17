@@ -1,6 +1,6 @@
 import axios from "axios";
 const instance = axios.create({
-    baseURL: "http://localhost:3000/json/",
+    baseURL: "http://127.0.0.1:7001",
     timeout: 1000,
     headers: { "X-Custom-Header": "foobar" },
 });

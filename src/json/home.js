@@ -41,7 +41,7 @@ export default [
                 "logo": "https://cn.vitejs.dev/logo.svg",
                 "name": "Vite 官方中文文档",
                 "explain": "前端开发与构建工具"
-            }, 
+            },
             {
                 "url": "https://www.gulpjs.com.cn/",
                 "logo": "https://www.gulpjs.com.cn/img/gulp-white-text.svg",
@@ -105,7 +105,7 @@ export default [
             logo: "https://v3.cn.vuejs.org/images/icons/apple-icon-152x152.png",
             name: "Vue Router",
             explain: "Vue.js 的官方路由",
-        },{
+        }, {
             url: "https://www.nuxtjs.cn/",
             logo: "https://www.nuxtjs.cn/favicon.ico",
             name: "NuxtJS",
@@ -164,18 +164,26 @@ export default [
     },
     {
         title: "Node.js & Deno",
-        list: [{
-            url: 'http://nodejs.cn/',
-            logo: 'http://img.nodejs.cn/favicon.png',
-            name: 'Node.js',
-            explain: '基于 V8 引擎的 JavaScript 运行环境',
-        },
-        {
-            url: 'https://www.npmjs.com/',
-            logo: 'https://static.npmjs.com/7a7ffabbd910fc60161bc04f2cee4160.png',
-            name: 'NPM',
-            explain: 'npm 是 JavaScript package 管理工具，在这里可以找到可复用代码，并以强大的全新方式进行聚合',
-        }]
+        list: [
+            {
+                url: 'http://nodejs.cn/',
+                logo: 'http://img.nodejs.cn/favicon.png',
+                name: 'Node.js',
+                explain: '基于 V8 引擎的 JavaScript 运行环境',
+            },
+            {
+                url: 'https://www.npmjs.com/',
+                logo: 'https://static.npmjs.com/7a7ffabbd910fc60161bc04f2cee4160.png',
+                name: 'NPM',
+                explain: 'npm 是 JavaScript package 管理工具，在这里可以找到可复用代码，并以强大的全新方式进行聚合',
+            },
+            {
+                url: 'https://www.eggjs.org/zh-CN',
+                logo: 'https://www.eggjs.org/logo.svg',
+                name: 'Egg',
+                explain: 'Egg.js 为企业级框架和应用而生，帮助开发团队和开发人员降低开发和维护成本。',
+            }
+        ]
     },
     {
         title: "小程序框架",

@@ -4,6 +4,7 @@ import {
     createWebHistory
 } from 'vue-router'
 import Home from '../page/home/index.vue'
+import Order from '../page/order/index.vue'
 // Auto generates routes from vue files under ./pages
 // https://vitejs.dev/guide/features.html#glob-import
 
@@ -16,7 +17,8 @@ import Home from '../page/home/index.vue'
 //     }
 //   })
 const routes = [
-    { path: '/', component: Home }
+    { path: '/', component: Home },
+    { path: '/order', component: Order }
 ]
 
 export function createRouter() {
