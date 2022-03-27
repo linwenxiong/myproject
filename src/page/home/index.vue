@@ -1,5 +1,6 @@
 <template>
   <section class="page-wrappy">
+    {{bbq}}
     <Menu :menuList="menuList" @menuClick="menuClick" />
     <Content :data="data" ref="content" />
   </section>
@@ -9,12 +10,22 @@ import { defineComponent, ref } from "vue";
 import Menu from "../../components/menu/index.vue";
 import Content from "../../components/content/index.vue";
 import data from "../../json/home";
+const bbq = {
+  name: 'abc'
+}
 export default defineComponent({
   components: {
     Menu,
     Content,
   },
+  asyncData({store}) {
+    bbq.name = store.name
+    console.log(bbq,56);
+    
+  },
   setup() {
+    console.log(bbq);
+    
     const menuList = data.map((item) => {
       return item.title;
     });
@@ -24,6 +35,7 @@ export default defineComponent({
       content.value.showIframe = false;
     };
     return {
+      bbq,
       menuClick,
       content,
       showIframe,

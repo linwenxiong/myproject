@@ -11,7 +11,6 @@ instance.interceptors.request.use((config) => {
     return handleConfig
 }, (error) => {
     // 对请求错误做些什么
-    alert(3)
     console.log(error, 5566);
     return Promise.reject("错误")
 })
